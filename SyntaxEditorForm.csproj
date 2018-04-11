@@ -7,7 +7,8 @@
     <ProjectGuid>{0380CCB4-A754-4110-A186-F56007761005}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>App.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
     <AssemblyKeyContainerName />
     <AssemblyName>SyntaxEditorForm</AssemblyName>
     <AssemblyOriginatorKeyFile />
@@ -87,22 +88,20 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SyntaxTextBox\HighlightDescriptor.cs" />
-    <Compile Include="SyntaxTextBox\HighlightDescriptorCollection.cs" />
-    <Compile Include="SyntaxTextBox\SeperaratorCollection.cs" />
-    <Compile Include="SyntaxTextBox\SyntaxHighlightingTextBox.cs">
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="SyntaxRichTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="SyntaxTextBox\Win32.cs" />
-    <Content Include="App.ico" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SyntaxTextBox\SyntaxHighlightingTextBox.resx">
-      <DependentUpon>SyntaxHighlightingTextBox.cs</DependentUpon>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
