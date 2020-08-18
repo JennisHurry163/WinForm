@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>菜单和导航-Bootstrap-submenup多级下拉菜单插件|DEMO_海量优质开发设计资源分享平台 | 好东西要分享，尽在蓝文资源库</title>
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bluestep-demo.css"><!--演示页面样式，使用时可以不引用-->
+	 <link rel="stylesheet" href="css/bootstrap-submenu.min.css">
+</head>
+<body>
+	<div class="bluestep-container">
+		<header class="bluestep-header">
+			<h1>菜单和导航-Bootstrap-submenup多级下拉菜单插件 <span>jQuery Plugin To Create Multi-level Bootstrap Dropdowns</span></h1>
+			<div class="bluestep-links">
+				<a class="bluestep-icon icon-bluestep-home-outline" href="http://www.bluestep.cc/" title="蓝文资源库" target="_blank"><span> 蓝文资源库</span></a>
+				<a class="bluestep-icon icon-bluestep-arrow-forward-outline" href="http://www.bluestep.cc/?p=8620" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div>
+		</header>
+		<div class="container"  style="padding:30px 0;">
+			<h2 id="html-examples">Examples</h2>
+
+			<!--多级下拉菜单-->
+			<h3>多级下拉菜单</h3>
+			<div class="dropdown m-b">
+			  <button class="btn btn-danger" type="button" data-toggle="dropdown">
+			    Dropdown
+			    <span class="caret"></span>
+			  </button>
+
+			  <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+			<ul class="dropdown-menu" role="menu">
+			  <li><a tabindex="0">Action</a></li>
+			  <li class="dropdown-submenu">
+			    <a tabindex="0" data-toggle="dropdown">Another action</a>
+
+			    <ul class="dropdown-menu">
+			      <li class="dropdown-header">Dropdown header</li>
+			      <li><a tabindex="0">二级子菜单</a></li>
+			      <li class="disabled"><a tabindex="0">被禁用的子菜单项</a></li>
+			      <li><a tabindex="0">子菜单项</a></li>
+			      <li class="dropdown-submenu">
+			      		<a tabindex="0" data-toggle="dropdown">三级子菜单</a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="0">三级级子菜单项</a></li>
+						<li><a tabindex="0">三级级子菜单项</a></li>
+						<li><a tabindex="0">三级级子菜单项</a></li>
+					</ul>
+			      </li>
+			    </ul>
+			  </li>
+			  <li><a tabindex="0">Something else here</a></li>
+			  <li class="divider"></li>
+			  <li><a tabindex="0">Separated link</a></li>
+			</ul>
+
+			</div>
+			
+			
+
+			<!--按钮组-->
+			<h3>按钮组多级下拉菜单</h3>
+			<div class="btn-group">
+				  <button class="btn btn-default" type="button">Dropdown</button>
+				  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+				    <span class="caret"></span>
+				  </button>
+
+				  <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+				<ul class="dropdown-menu" role="menu">
+				  <li><a tabindex="0">Action</a></li>
+				  <li class="dropdown-submenu">
+				    <a tabindex="0" data-toggle="dropdown">Another action</a>
+
+				    <ul class="dropdown-menu">
+				      <li class="dropdown-header">Dropdown header</li>
+				      <li><a tabindex="0">Sub action</a></li>
+				      <li class="disabled"><a tabindex="0">Another sub action</a></li>
+				      <li><a tabindex="0">Something else here</a></li>
+				    </ul>
+				  </li>
+				  <li><a tabindex="0">Something else here</a></li>
+				  <li class="divider"></li>
+				  <li><a tabindex="0">Separated link</a></li>
+				</ul>
+
+			</div>
+
+			<!--向上展开-->
+			<h3>菜单向上展开</h3>
+				<div class="dropdown dropup m-b">
+				  <button class="btn btn-default" type="button" data-toggle="dropdown">
+				    Dropup
+				    <span class="caret"></span>
+				  </button>
+
+				  <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+				<ul class="dropdown-menu" role="menu">
+				  <li><a tabindex="0">Action</a></li>
+				  <li class="dropdown-submenu">
+				    <a tabindex="0" data-toggle="dropdown">Another action</a>
+
+				    <ul class="dropdown-menu">
+				      <li class="dropdown-header">Dropdown header</li>
+				      <li><a tabindex="0">Sub action</a></li>
+				      <li class="disabled"><a tabindex="0">Another sub action</a></li>
+				      <li><a tabindex="0">Something else here</a></li>
+				    </ul>
+				  </li>
+				  <li><a tabindex="0">Something else here</a></li>
+				  <li class="divider"></li>
+				  <li><a tabindex="0">Separated link</a></li>
+				</ul>
+
+			</div>
+
+			<div class="btn-group dropup">
+			  <button class="btn btn-default" type="button">Dropup</button>
+			  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+			    <span class="caret"></span>
+			  </button>
+
+			  <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+			<ul class="dropdown-menu" role="menu">
+			  <li><a tabindex="0">Action</a></li>
+			  <li class="dropdown-submenu">
+			    <a tabindex="0" data-toggle="dropdown">Another action</a>
+
+			    <ul class="dropdown-menu">
+			      <li class="dropdown-header">Dropdown header</li>
+			      <li><a tabindex="0">Sub action</a></li>
+			      <li class="disabled"><a tabindex="0">Another sub action</a></li>
+			      <li><a tabindex="0">Something else here</a></li>
+			    </ul>
+			  </li>
+			  <li><a tabindex="0">Something else here</a></li>
+			  <li class="divider"></li>
+			  <li><a tabindex="0">Separated link</a></li>
+			</ul>
+
+			</div>
+
+			<!--导航菜单-->
+			<h3>导航菜单</h3>
+			<nav class="navbar navbar-default">
+			  <div class="navbar-header">
+			    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+
+			    <a class="navbar-brand">Project Name</a>
+			  </div>
+
+			  <div class="collapse navbar-collapse">
+			    <ul class="nav navbar-nav">
+			      <li class="dropdown">
+			        <a tabindex="0" data-toggle="dropdown">Dropdown<span class="caret"></span></a>
+
+			        <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+			        <ul class="dropdown-menu" role="menu">
+			          <li class="dropdown-submenu">
+			            <a tabindex="0" data-toggle="dropdown">Action</a>
+
+			            <ul class="dropdown-menu">
+			              <li><a tabindex="0">Sub action</a></li>
+			              <li class="dropdown-submenu">
+			                <a tabindex="0" data-toggle="dropdown">Another sub action</a>
+
+			                <ul class="dropdown-menu">
+			                  <li><a tabindex="0">Sub action</a></li>
+			                  <li><a tabindex="0">Another sub action</a></li>
+			                  <li><a tabindex="0">Something else here</a></li>
+			                </ul>
+			              </li>
+			              <li><a tabindex="0">Something else here</a></li>
+			              <li class="dropdown-submenu">
+			                <a tabindex="0" data-toggle="dropdown">Another action</a>
+
+			                <ul class="dropdown-menu">
+			                  <li><a tabindex="0">Sub action</a></li>
+			                  <li><a tabindex="0">Another sub action</a></li>
+			                  <li><a tabindex="0">Something else here</a></li>
+			                </ul>
+			              </li>
+			            </ul>
+			          </li>
+
+			          <li class="dropdown-submenu">
+			            <a tabindex="0" data-toggle="dropdown">Another action</a>
+
+			            <ul class="dropdown-menu">
+			              <li><a tabindex="0">Sub action</a></li>
+			              <li><a tabindex="0">Another sub action</a></li>
+			              <li><a tabindex="0">Something else here</a></li>
+			            </ul>
+			          </li>
+			          <li><a tabindex="0">Something else here</a></li>
+			          <li class="divider"></li>
+			          <li><a tabindex="0">Separated link</a></li>
+			        </ul>
+			      </li>
+			      <li class="dropdown">
+			        <a tabindex="0" data-toggle="dropdown">Dropdown 2<span class="caret"></span></a>
+
+			        <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+			        <ul class="dropdown-menu" role="menu">
+			          <li class="dropdown-submenu">
+			            <a tabindex="0" data-toggle="dropdown">Action</a>
+
+			            <ul class="dropdown-menu">
+			              <li><a tabindex="0">Sub action</a></li>
+			              <li class="dropdown-submenu">
+			                <a tabindex="0" data-toggle="dropdown">Another sub action</a>
+
+			                <ul class="dropdown-menu">
+			                  <li><a tabindex="0">Sub action</a></li>
+			                  <li><a tabindex="0">Another sub action</a></li>
+			                  <li><a tabindex="0">Something else here</a></li>
+			                </ul>
+			              </li>
+			              <li><a tabindex="0">Something else here</a></li>
+			            </ul>
+			          </li>
+			          <li><a tabindex="0">Another action</a></li>
+			          <li class="dropdown-submenu">
+			            <a tabindex="0" data-toggle="dropdown">Something else here</a>
+
+			            <ul class="dropdown-menu">
+			              <li><a tabindex="0">Sub action</a></li>
+			              <li><a tabindex="0">Another sub action</a></li>
+			              <li><a tabindex="0">Something else here</a></li>
+			            </ul>
+			          </li>
+			          <li class="divider"></li>
+			          <li><a tabindex="0">Separated link</a></li>
+			        </ul>
+			      </li>
+			    </ul>
+
+			    <ul class="nav navbar-nav navbar-right">
+			      <li class="dropdown">
+			        <a tabindex="0" data-toggle="dropdown">Dropdown 3<span class="caret"></span></a>
+
+			        <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+			        <ul class="dropdown-menu" role="menu">
+			          <li><a tabindex="0">Action</a></li>
+			          <li><a tabindex="0">Another action</a></li>
+			          <li><a tabindex="0">Something else here</a></li>
+			          <li class="divider"></li>
+			          <li><a tabindex="0">Separated link</a></li>
+			        </ul>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+
+		<h3>Pills</h3>
+<ul class="nav nav-pills">
+  <li class="active"><a tabindex="0">Regular link</a></li>
+  <li class="dropdown">
+    <a tabindex="0" data-toggle="dropdown">Dropdown<span class="caret"></span></a>
+
+    <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+    <ul class="dropdown-menu" role="menu">
+      <li class="dropdown-submenu">
+        <a tabindex="0" data-toggle="dropdown">Action</a>
+
+        <ul class="dropdown-menu">
+          <li><a tabindex="0">Sub action</a></li>
+          <li class="dropdown-submenu">
+            <a tabindex="0" data-toggle="dropdown">Another sub action</a>
+
+            <ul class="dropdown-menu">
+              <li><a tabindex="0">Sub action</a></li>
+              <li><a tabindex="0">Another sub action</a></li>
+              <li><a tabindex="0">Something else here</a></li>
+            </ul>
+          </li>
+          <li><a tabindex="0">Something else here</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a tabindex="0" data-toggle="dropdown">Another action</a>
+
+        <ul class="dropdown-menu">
+          <li><a tabindex="0">Sub action</a></li>
+          <li><a tabindex="0">Another sub action</a></li>
+          <li><a tabindex="0">Something else here</a></li>
+        </ul>
+      </li>
+      <li><a tabindex="0">Something else here</a></li>
+      <li class="divider"></li>
+      <li><a tabindex="0">Separated link</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a tabindex="0" data-toggle="dropdown">Dropdown 2<span class="caret"></span></a>
+
+    <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+    <ul class="dropdown-menu" role="menu">
+      <li class="dropdown-submenu">
+        <a tabindex="0" data-toggle="dropdown">Action</a>
+
+        <ul class="dropdown-menu">
+          <li><a tabindex="0">Sub action</a></li>
+          <li class="dropdown-submenu">
+            <a tabindex="0" data-toggle="dropdown">Another sub action</a>
+
+            <ul class="dropdown-menu">
+              <li><a tabindex="0">Sub action</a></li>
+              <li><a tabindex="0">Another sub action</a></li>
+              <li><a tabindex="0">Something else here</a></li>
+            </ul>
+          </li>
+          <li><a tabindex="0">Something else here</a></li>
+        </ul>
+      </li>
+      <li><a tabindex="0">Another action</a></li>
+      <li class="dropdown-submenu">
+        <a tabindex="0" data-toggle="dropdown">Something else here</a>
+
+        <ul class="dropdown-menu">
+          <li><a tabindex="0">Sub action</a></li>
+          <li><a tabindex="0">Another sub action</a></li>
+          <li><a tabindex="0">Something else here</a></li>
+        </ul>
+      </li>
+      <li class="divider"></li>
+      <li><a tabindex="0">Separated link</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a tabindex="0" data-toggle="dropdown">Dropdown 3<span class="caret"></span></a>
+
+    <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+    <ul class="dropdown-menu" role="menu">
+      <li><a tabindex="0">Action</a></li>
+      <li><a tabindex="0">Another action</a></li>
+      <li><a tabindex="0">Something else here</a></li>
+      <li class="divider"></li>
+      <li><a tabindex="0">Separated link</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+		</div>
+	</div>
+	
+	<script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-submenu.min.js"></script>
+	<script type="text/javascript">
+		//$('[data-submenu]').submenupicker();
+		$(function() {
+
+
+		  // Dropdown fix
+		  $('.dropdown > a[tabindex]').keydown(function(event) {
+		    // 13: Return
+
+		    if (event.keyCode == 13) {
+		      $(this).dropdown('toggle');
+		    }
+		  });
+
+
+		  $('.dropdown-submenu > a').submenupicker();
+		});
+	</script>
+</body>
+</html>
