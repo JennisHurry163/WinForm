@@ -1,0 +1,685 @@
+Microsoft Windows [Version 10.0.18363.1440]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding
+
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding>yarn
+yarn install v1.22.10
+warning package.json: No license field
+info No lockfile found.
+warning webpack-dependencies-beezy-sprites-install@1.0.0: No license field
+[1/4] Resolving packages...
+warning react > fbjs > core-js@1.2.7: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning babel-core > babel-register > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning babel-core > babel-runtime > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning babel-eslint@6.1.2: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+warning babel-preset-es2015@6.24.1: �  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+warning babel-preset-react-app > babel-runtime > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning babel-preset-react-app > babel-preset-env > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning babel-preset-react-app > babel-preset-latest@6.16.0: We're super �  excited that you're trying to use ES2017+ syntax, but instead of making more yearly presets � , Babel now has a better preset that we recommend you use instead: npm install babel-preset-env --save-dev. preset-env without options will compile ES2015+ down to ES5 just like using all the presets together and thus is more future proof. It also allows you to target specific browsers so that Babel can do less work and you can ship native ES2015+ to user � ! We are also in the process of releasing v7, so please give http://babeljs.io/blog/2017/09/12/planning-for-7.0 a read and help test it out in beta! Thanks so much for using Babel �, please give us a follow on Twitter @babeljs for news on Babel, join slack.babeljs.io for discussion/development and help support the project at opencollective.com/babel
+warning babel-preset-react-app > babel-preset-latest > babel-preset-es2015@6.24.1: �  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+warning babel-preset-react-app > babel-preset-latest > babel-preset-es2016@6.24.1: �  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+warning babel-preset-react-app > babel-preset-latest > babel-preset-es2017@6.24.1: �  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+warning babel-runtime > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning grunt > minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+warning grunt > glob > minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+warning grunt > glob > graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+warning grunt > coffee-script@1.3.3: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
+warning grunt > findup-sync > glob > minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+warning @beezyinc/grunt-dr-svg-sprites-bz > @beezyinc/dr-svg-sprites-bz > svg2png > phantomjs-prebuilt@2.1.16: this package is now deprecated
+warning @beezyinc/grunt-dr-svg-sprites-bz > @beezyinc/dr-svg-sprites-bz > svg2png > phantomjs-prebuilt > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+warning @beezyinc/grunt-dr-svg-sprites-bz > @beezyinc/dr-svg-sprites-bz > svg2png > phantomjs-prebuilt > request > har-validator@5.1.5: this library is no longer supported
+warning css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning eslint > file-entry-cache > flat-cache > circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+warning node-sass > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+warning node-sass > node-gyp > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+warning chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+warning chokidar > fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+warning chokidar > readdirp > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+warning chokidar > readdirp > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+warning webpack > watchpack > chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+warning extract-text-webpack-plugin@1.0.1: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+[2/4] Fetching packages...
+info fsevents@1.2.13: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > sass-loader@3.2.3" has incorrect peer dependency "node-sass@^3.4.2".
+[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 149.28s.
+
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding>build.bat
+Deleting .orig files...
+
+Installing npm references...
+call "C:\Program Files\nodejs\npm.cmd" install --color false
+
+Starting FE Build...
+{
+  "process.env": {
+    "NODE_ENV": "'development'",
+    "BABEL_ENV": "'development'"
+  }
+}
+
+
+To get the usage:
+
+--usage
+ Optional: true
+ Shows para-meter ;) usage
+
+
+Configuration:
+Environment ==> debug
+Model ==> Wsp ( onprem )
+Extension:  ==> none
+Branding ==> true (DISCOVERYCARDS)
+Customizations ==> false
+Verbose ==> false
+Output path ==> D:/Style Library3/Beezy
+Keep Branding:  ==> false
+
+
+
+[STARTING IO QUEUE]
+..//DISCOVERYCARDS.Beezy.Branding/DISCOVERYCARDS.Beezy.Branding/_artifacts/
+[CONFIGURATION OVERRIDED FROM BRANDING]
+[SETTING NEW SOURCE FROM BRANDING]
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\DiscoveryCards.Beezy.Branding\_artifacts
+[SETTING NEW PROVISIONING FROM BRANDING]
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\DiscoveryCards.Beezy.Branding.Provisioning\_artifacts\Provisioning\Branding
+
+
+Configuration:
+Environment ==> debug
+Model ==> Apps ( onprem )
+Extension:  ==> none
+Branding ==> true (DISCOVERYCARDS)
+Customizations ==> false
+Verbose ==> false
+Output path ==> D:/Style Library3/Beezy
+Keep Branding:  ==> false
+
+
+Sprites configuration found. Executing sprite generation script...
+npm WARN beezy-sprites@0.1.0 No repository field.
+npm WARN beezy-sprites@0.1.0 No license field.
+
+Sprites generated successfully.
+Output:
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding>set target=DISCOVERYCARDS
+
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding>set dpath=C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\sprites
+
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding>cd C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\webpack\batches\
+
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\webpack\batches>cd C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\sprites
+
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\sprites>call buildsprites.bat DISCOVERYCARDS
+
+> phantomjs-prebuilt@2.1.16 install C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\sprites\node_modules\@beezyinc\dr-svg-sprites-bz\node_modules\phantomjs-prebuilt
+> node install.js
+
+PhantomJS not found on PATH
+Download already available at C:\Users\VHD9090\AppData\Local\Temp\phantomjs\phantomjs-2.1.1-windows.zip
+Verified checksum of previously downloaded file
+Extracting zip contents
+Removing C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\sprites\node_modules\@beezyinc\dr-svg-sprites-bz\node_modules\phantomjs-prebuilt\lib\phantom
+Copying extracted folder C:\Users\VHD9090\AppData\Local\Temp\phantomjs\phantomjs-2.1.1-windows.zip-extract-1618805466314\phantomjs-2.1.1-windows -> C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\sprites\node_modules\@beezyinc\dr-svg-sprites-bz\node_modules\phantomjs-prebuilt\lib\phantom
+Writing location.js file
+Done. Phantomjs binary available at C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding\sprites\node_modules\@beezyinc\dr-svg-sprites-bz\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe
+added 540 packages from 318 contributors and audited 538 packages in 39.406s
+found 130 vulnerabilities (69 low, 17 moderate, 43 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+Running "default" task
+
+Running "clean:svg" (clean) task
+>> 0 paths cleaned.
+
+Running "svgmin:dist" (svgmin) task
+√ src/img/svg/no-conversion/activity-type--announcement.svg (saved 1.13 kB 58%)
+√ src/img/svg/no-conversion/add-endorsement.svg (saved 545 B 72%)
+√ src/img/svg/no-conversion/arms-up-active.svg (saved 1.4 kB 65%)
+√ src/img/svg/no-conversion/arms-up-fill.svg (saved 1.4 kB 65%)
+√ src/img/svg/no-conversion/arms-up-stroke.svg (saved 1.39 kB 64%)
+√ src/img/svg/no-conversion/check-small-active.svg (saved 798 B 74%)
+√ src/img/svg/no-conversion/check-small-fill.svg (saved 794 B 74%)
+√ src/img/svg/no-conversion/check-small-stroke.svg (saved 784 B 74%)
+√ src/img/svg/no-conversion/clock-stroke.svg (saved 1.18 kB 67%)
+√ src/img/svg/no-conversion/community-archived.svg (saved 1.27 kB 67%)
+√ src/img/svg/no-conversion/community-header-menu.svg (saved 875 B 67%)
+√ src/img/svg/no-conversion/community-moderated.svg (saved 752 B 65%)
+√ src/img/svg/no-conversion/community-restricted.svg (saved 704 B 66%)
+√ src/img/svg/no-conversion/cross-delete.svg (saved 1.25 kB 69%)
+√ src/img/svg/no-conversion/data-classification-label.svg (saved 1.02 kB 69%)
+√ src/img/svg/no-conversion/discover-mostactive.svg (saved 661 B 71%)
+√ src/img/svg/no-conversion/discover-quicklinks.svg (saved 1.4 kB 61%)
+√ src/img/svg/no-conversion/discover-recentcommunities.svg (saved 10.29 kB 62%)
+√ src/img/svg/no-conversion/discover-tipweek.svg (saved 3.22 kB 62%)
+√ src/img/svg/no-conversion/discover-topcontributors.svg (saved 3.74 kB 63%)
+√ src/img/svg/no-conversion/discover-toppraised.svg (saved 1.35 kB 63%)
+√ src/img/svg/no-conversion/discover-trendingtopics.svg (saved 1.11 kB 64%)
+√ src/img/svg/no-conversion/discover-upcomingevents.svg (saved 1.94 kB 60%)
+√ src/img/svg/no-conversion/endorsement-clock-approval.svg (saved 1.26 kB 69%)
+√ src/img/svg/no-conversion/heart-active.svg (saved 861 B 65%)
+√ src/img/svg/no-conversion/heart-fill.svg (saved 861 B 65%)
+√ src/img/svg/no-conversion/heart-stroke.svg (saved 861 B 65%)
+√ src/img/svg/no-conversion/ic-impact-empty.svg (saved 1 kB 59%)
+√ src/img/svg/no-conversion/mp-back.svg (saved 1.4 kB 66%)
+√ src/img/svg/no-conversion/my-profile-edit-job-description.svg (saved 834 B 66%)
+√ src/img/svg/no-conversion/office-graph--discover-new-content.svg (saved 1.13 kB 61%)
+√ src/img/svg/no-conversion/related-idea.svg (saved 1.37 kB 69%)
+√ src/img/svg/no-conversion/remove-endorsement.svg (saved 567 B 74%)
+√ src/img/svg/no-conversion/sharebox-attach.svg (saved 1.39 kB 68%)
+√ src/img/svg/no-conversion/speach-bubble-active.svg (saved 643 B 75%)
+√ src/img/svg/no-conversion/speach-bubble-fill.svg (saved 639 B 75%)
+√ src/img/svg/no-conversion/speach-bubble-stroke.svg (saved 629 B 74%)
+√ src/img/svg/no-conversion/stats-widget-answers.svg (saved 2.3 kB 82%)
+√ src/img/svg/no-conversion/stats-widget-champions.svg (saved 4.08 kB 66%)
+√ src/img/svg/no-conversion/stats-widget-comments.svg (saved 1.87 kB 65%)
+√ src/img/svg/no-conversion/stats-widget-likes.svg (saved 769 B 64%)
+√ src/img/svg/no-conversion/stats-widget-views.svg (saved 1.27 kB 66%)
+√ src/img/svg/no-conversion/stats-widget-votes.svg (saved 3.2 kB 71%)
+√ src/img/svg/no-conversion/tools-badge-active.svg (saved 913 B 62%)
+√ src/img/svg/no-conversion/tools-champion-active.svg (saved 12.18 kB 65%)
+√ src/img/svg/no-conversion/tools-check-active.svg (saved 654 B 70%)
+√ src/img/svg/no-conversion/tools-comment-active.svg (saved 507 B 70%)
+√ src/img/svg/no-conversion/tools-detail-counters-comments.svg (saved 536 B 71%)
+√ src/img/svg/no-conversion/tools-detail-counters-likes.svg (saved 752 B 62%)
+√ src/img/svg/no-conversion/tools-detail-counters-views.svg (saved 1.15 kB 63%)
+√ src/img/svg/no-conversion/tools-heart-active.svg (saved 742 B 62%)
+√ src/img/svg/no-conversion/tools-pin-active.svg (saved 7.66 kB 66%)
+√ src/img/svg/no-conversion/tools-tag-active.svg (saved 1.01 kB 65%)
+√ src/img/svg/no-conversion/tools-user-active.svg (saved 948 B 64%)
+√ src/img/svg/no-conversion/tools-vote-active.svg (saved 563 B 67%)
+√ src/img/svg/no-conversion/topbar-favorites--wall.svg (saved 581 B 66%)
+√ src/img/svg/no-conversion/topbar-filter--wall.svg (saved 599 B 69%)
+√ src/img/svg/no-conversion/user-active.svg (saved 3.81 kB 65%)
+√ src/img/svg/no-conversion/user-fill.svg (saved 3.81 kB 65%)
+√ src/img/svg/no-conversion/user-stroke.svg (saved 3.8 kB 65%)
+√ src/img/svg/no-conversion/vote-active.svg (saved 709 B 72%)
+√ src/img/svg/no-conversion/vote-fill.svg (saved 705 B 72%)
+√ src/img/svg/no-conversion/vote-stroke.svg (saved 695 B 72%)
+√ src/img/svg/no-conversion/wikitree-collapse.svg (saved 666 B 73%)
+√ src/img/svg/no-conversion/wikitree-expand.svg (saved 753 B 75%)
+√ src/img/svg/no-conversion/wikitree-widget-child-pointer.svg (saved 500 B 69%)
+√ src/img/svg/no-conversion/ww-right-arrow.svg (saved 738 B 74%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--action-send.svg (saved 1.5 kB 58%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--blog.svg (saved 3.88 kB 60%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--discussion.svg (saved 1.23 kB 59%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--event.svg (saved 2.4 kB 59%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--file.svg (saved 2.08 kB 56%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--idea.svg (saved 3.57 kB 60%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--poll.svg (saved 1.25 kB 59%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--post.svg (saved 1.1 kB 59%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--praise.svg (saved 1.77 kB 58%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--question.svg (saved 2.02 kB 61%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--sp-item.svg (saved 1.07 kB 66%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--task.svg (saved 1.18 kB 57%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/activity-type--wiki.svg (saved 1.16 kB 57%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/arrow-back-stroke-circle.svg (saved 1.38 kB 64%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/community-start-date.svg (saved 1.16 kB 60%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/header-search.svg (saved 1.97 kB 64%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/load-more-activities.svg (saved 1.47 kB 58%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/plus-stroke-circle.svg (saved 1.28 kB 62%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/public-profile-back.svg (saved 1.11 kB 58%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/topbar-favorites.svg (saved 2.58 kB 75%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/topbar-filter.svg (saved 582 B 69%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/topbar-reload.svg (saved 840 B 60%)
+√ src/img/svg/to-linkcolor-and-linkhovercolor/widget-more-extend.svg (saved 600 B 69%)
+√ src/img/svg/to-pinkishgrey-and-linkcolor/bubble-stroke-lalala.svg (saved 715 B 74%)
+√ src/img/svg/to-pinkishgrey-and-linkcolor/eye-stroke.svg (saved 2.01 kB 61%)
+√ src/img/svg/to-pinkishgrey-and-linkcolor/heart-stroke-big.svg (saved 862 B 65%)
+√ src/img/svg/to-pinkishgrey-and-linkcolor/mag-glass-fill.svg (saved 1.89 kB 63%)
+√ src/img/svg/to-pinkishgrey-and-linkcolor/poll-option-radio-button-checked.svg (saved 1.07 kB 74%)
+√ src/img/svg/to-pinkishgrey-and-linkcolor/poll-option-radio-button.svg (saved 762 B 75%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/cross-stroke-circle.svg (saved 856 B 63%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-badge.svg (saved 1.06 kB 64%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-champion.svg (saved 1.5 kB 66%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-check.svg (saved 800 B 74%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-comment.svg (saved 503 B 70%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-detail-delete.svg (saved 1.21 kB 69%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-detail-edit.svg (saved 670 B 70%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-heart.svg (saved 742 B 62%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-pin.svg (saved 1.21 kB 67%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-tag.svg (saved 1.35 kB 69%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-user.svg (saved 1.07 kB 66%)
+√ src/img/svg/to-pinkishgreybasf-and-warmgreybasf/tools-vote.svg (saved 663 B 71%)
+√ src/img/svg/to-warmgrey-and-linkcolor/agg-commented.svg (saved 1.91 kB 65%)
+√ src/img/svg/to-warmgrey-and-linkcolor/aggregated-links-title--recently-shared.svg (saved 1.26 kB 60%)
+√ src/img/svg/to-warmgrey-and-linkcolor/aggregated-questions-title--recently-answered.svg (saved 755 B 73%)
+√ src/img/svg/to-warmgrey-and-linkcolor/arrow-down-stroke.svg (saved 653 B 71%)
+√ src/img/svg/to-warmgrey-and-linkcolor/bar-graphic-stroke-circle.svg (saved 1.23 kB 60%)
+√ src/img/svg/to-warmgrey-and-linkcolor/bar-graphic-stroke.svg (saved 824 B 76%)
+√ src/img/svg/to-warmgrey-and-linkcolor/bubble-stroke-circle.svg (saved 1.09 kB 60%)
+√ src/img/svg/to-warmgrey-and-linkcolor/bubble-stroke.svg (saved 691 B 74%)
+√ src/img/svg/to-warmgrey-and-linkcolor/bulb-stroke-circle.svg (saved 3.66 kB 61%)
+√ src/img/svg/to-warmgrey-and-linkcolor/bulb-stroke.svg (saved 3.36 kB 65%)
+√ src/img/svg/to-warmgrey-and-linkcolor/calendar-icon.svg (saved 2.25 kB 66%)
+√ src/img/svg/to-warmgrey-and-linkcolor/calendar-stroke-circle.svg (saved 2.16 kB 57%)
+√ src/img/svg/to-warmgrey-and-linkcolor/check-stroke-circle.svg (saved 1.11 kB 59%)
+√ src/img/svg/to-warmgrey-and-linkcolor/clock-stroke.svg (saved 1.25 kB 66%)
+√ src/img/svg/to-warmgrey-and-linkcolor/dots-stroke-circle.svg (saved 1.35 kB 61%)
+√ src/img/svg/to-warmgrey-and-linkcolor/exclamation-mark-stroke-circle-small.svg (saved 771 B 74%)
+√ src/img/svg/to-warmgrey-and-linkcolor/exclamation-mark-stroke-circle.svg (saved 1.15 kB 60%)
+√ src/img/svg/to-warmgrey-and-linkcolor/fire-stroke.svg (saved 668 B 71%)
+√ src/img/svg/to-warmgrey-and-linkcolor/flash-stroke.svg (saved 796 B 75%)
+√ src/img/svg/to-warmgrey-and-linkcolor/funnel-stroke.svg (saved 657 B 71%)
+√ src/img/svg/to-warmgrey-and-linkcolor/gear-fill.svg (saved 1.02 kB 59%)
+√ src/img/svg/to-warmgrey-and-linkcolor/home-stroke-circle.svg (saved 1.12 kB 59%)
+√ src/img/svg/to-warmgrey-and-linkcolor/locker-stroke.svg (saved 922 B 74%)
+√ src/img/svg/to-warmgrey-and-linkcolor/notepad-stroke-circle.svg (saved 3.23 kB 56%)
+√ src/img/svg/to-warmgrey-and-linkcolor/notepad-stroke.svg (saved 3.5 kB 64%)
+√ src/img/svg/to-warmgrey-and-linkcolor/paper-airplane-stroke-circle.svg (saved 1.72 kB 62%)
+√ src/img/svg/to-warmgrey-and-linkcolor/paperclip-stroke-circle.svg (saved 2.29 kB 59%)
+√ src/img/svg/to-warmgrey-and-linkcolor/papers-vertical-stroke-circle.svg (saved 1.19 kB 58%)
+√ src/img/svg/to-warmgrey-and-linkcolor/papers-vertical-stroke.svg (saved 808 B 71%)
+√ src/img/svg/to-warmgrey-and-linkcolor/pencil-stroke-20px.svg (saved 693 B 70%)
+√ src/img/svg/to-warmgrey-and-linkcolor/pencil-stroke-27px.svg (saved 687 B 70%)
+√ src/img/svg/to-warmgrey-and-linkcolor/praise-stroke-circle.svg (saved 1.77 kB 59%)
+√ src/img/svg/to-warmgrey-and-linkcolor/praise-stroke.svg (saved 1.45 kB 66%)
+√ src/img/svg/to-warmgrey-and-linkcolor/question-mark-stroke-circle-small.svg (saved 1.6 kB 68%)
+√ src/img/svg/to-warmgrey-and-linkcolor/question-mark-stroke-circle.svg (saved 1.79 kB 58%)
+√ src/img/svg/to-warmgrey-and-linkcolor/rounded-arrow-stroke.svg (saved 983 B 65%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-announcement.svg (saved 705 B 72%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-blog.svg (saved 3.52 kB 64%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-event.svg (saved 2.24 kB 66%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-forum.svg (saved 947 B 78%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-idea.svg (saved 3.43 kB 66%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-poll.svg (saved 876 B 73%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-post.svg (saved 722 B 75%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-praise.svg (saved 1.46 kB 66%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-question.svg (saved 1.66 kB 68%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-task.svg (saved 708 B 73%)
+√ src/img/svg/to-warmgrey-and-linkcolor/sharebox-wiki.svg (saved 625 B 66%)
+√ src/img/svg/to-warmgrey-and-linkcolor/speech-bubbles-stroke-circle.svg (saved 1.13 kB 60%)
+√ src/img/svg/to-warmgrey-and-linkcolor/speech-bubbles-stroke.svg (saved 907 B 77%)
+√ src/img/svg/to-warmgrey-and-linkcolor/star-stroke-grey.svg (saved 715 B 71%)
+√ src/img/svg/to-warmgrey-and-linkcolor/task-icon.svg (saved 784 B 75%)
+√ src/img/svg/to-warmgrey-and-linkcolor/trash-stroke-27px.svg (saved 1.2 kB 69%)
+√ src/img/svg/to-warmgrey-and-white/cog-stroke-header.svg (saved 4.26 kB 63%)
+√ src/img/svg/to-warmgrey-and-white/envelope-open-stroke-header.svg (saved 786 B 68%)
+√ src/img/svg/to-warmgrey-and-white/export-users-header.svg (saved 2.32 kB 65%)
+√ src/img/svg/to-warmgrey-and-white/leave-stroke-header.svg (saved 549 B 68%)
+√ src/img/svg/to-warmgrey-and-white/unfollow-stroke-header.svg (saved 1.64 kB 71%)
+Total saved: 250.58 kB
+
+Running "color_svg_icons:to_linkcolor_and_linkhovercolor" (color_svg_icons) task
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--action-send.svg
+File "src/img/svg-colors\activity-type--action-send.svg" created.
+File "src/img/svg-colors\activity-type--action-send_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--blog.svg
+File "src/img/svg-colors\activity-type--blog.svg" created.
+File "src/img/svg-colors\activity-type--blog_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--discussion.svg
+File "src/img/svg-colors\activity-type--discussion.svg" created.
+File "src/img/svg-colors\activity-type--discussion_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--event.svg
+File "src/img/svg-colors\activity-type--event.svg" created.
+File "src/img/svg-colors\activity-type--event_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--file.svg
+File "src/img/svg-colors\activity-type--file.svg" created.
+File "src/img/svg-colors\activity-type--file_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--idea.svg
+File "src/img/svg-colors\activity-type--idea.svg" created.
+File "src/img/svg-colors\activity-type--idea_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--poll.svg
+File "src/img/svg-colors\activity-type--poll.svg" created.
+File "src/img/svg-colors\activity-type--poll_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--post.svg
+File "src/img/svg-colors\activity-type--post.svg" created.
+File "src/img/svg-colors\activity-type--post_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--praise.svg
+File "src/img/svg-colors\activity-type--praise.svg" created.
+File "src/img/svg-colors\activity-type--praise_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--question.svg
+File "src/img/svg-colors\activity-type--question.svg" created.
+File "src/img/svg-colors\activity-type--question_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--sp-item.svg
+File "src/img/svg-colors\activity-type--sp-item.svg" created.
+File "src/img/svg-colors\activity-type--sp-item_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--task.svg
+File "src/img/svg-colors\activity-type--task.svg" created.
+File "src/img/svg-colors\activity-type--task_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/activity-type--wiki.svg
+File "src/img/svg-colors\activity-type--wiki.svg" created.
+File "src/img/svg-colors\activity-type--wiki_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/arrow-back-stroke-circle.svg
+File "src/img/svg-colors\arrow-back-stroke-circle.svg" created.
+File "src/img/svg-colors\arrow-back-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/community-start-date.svg
+File "src/img/svg-colors\community-start-date.svg" created.
+File "src/img/svg-colors\community-start-date_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/header-search.svg
+File "src/img/svg-colors\header-search.svg" created.
+File "src/img/svg-colors\header-search_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/load-more-activities.svg
+File "src/img/svg-colors\load-more-activities.svg" created.
+File "src/img/svg-colors\load-more-activities_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/plus-stroke-circle.svg
+File "src/img/svg-colors\plus-stroke-circle.svg" created.
+File "src/img/svg-colors\plus-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/public-profile-back.svg
+File "src/img/svg-colors\public-profile-back.svg" created.
+File "src/img/svg-colors\public-profile-back_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/topbar-favorites.svg
+File "src/img/svg-colors\topbar-favorites.svg" created.
+File "src/img/svg-colors\topbar-favorites_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/topbar-filter.svg
+File "src/img/svg-colors\topbar-filter.svg" created.
+File "src/img/svg-colors\topbar-filter_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/topbar-reload.svg
+File "src/img/svg-colors\topbar-reload.svg" created.
+File "src/img/svg-colors\topbar-reload_hover.svg" created.
+Source filename src/img/svg-compressed/to-linkcolor-and-linkhovercolor/widget-more-extend.svg
+File "src/img/svg-colors\widget-more-extend.svg" created.
+File "src/img/svg-colors\widget-more-extend_hover.svg" created.
+File "src/img/svg-colors" created.
+
+Running "color_svg_icons:to_pinkishgreybasf_and_warmgreybasf" (color_svg_icons) task
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/cross-stroke-circle.svg
+File "src/img/svg-colors\cross-stroke-circle.svg" created.
+File "src/img/svg-colors\cross-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-badge.svg
+File "src/img/svg-colors\tools-badge.svg" created.
+File "src/img/svg-colors\tools-badge_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-champion.svg
+File "src/img/svg-colors\tools-champion.svg" created.
+File "src/img/svg-colors\tools-champion_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-check.svg
+File "src/img/svg-colors\tools-check.svg" created.
+File "src/img/svg-colors\tools-check_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-comment.svg
+File "src/img/svg-colors\tools-comment.svg" created.
+File "src/img/svg-colors\tools-comment_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-detail-delete.svg
+File "src/img/svg-colors\tools-detail-delete.svg" created.
+File "src/img/svg-colors\tools-detail-delete_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-detail-edit.svg
+File "src/img/svg-colors\tools-detail-edit.svg" created.
+File "src/img/svg-colors\tools-detail-edit_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-heart.svg
+File "src/img/svg-colors\tools-heart.svg" created.
+File "src/img/svg-colors\tools-heart_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-pin.svg
+File "src/img/svg-colors\tools-pin.svg" created.
+File "src/img/svg-colors\tools-pin_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-tag.svg
+File "src/img/svg-colors\tools-tag.svg" created.
+File "src/img/svg-colors\tools-tag_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-user.svg
+File "src/img/svg-colors\tools-user.svg" created.
+File "src/img/svg-colors\tools-user_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgreybasf-and-warmgreybasf/tools-vote.svg
+File "src/img/svg-colors\tools-vote.svg" created.
+File "src/img/svg-colors\tools-vote_hover.svg" created.
+File "src/img/svg-colors" created.
+
+Running "color_svg_icons:to_pinkishgrey_and_linkcolor" (color_svg_icons) task
+Source filename src/img/svg-compressed/to-pinkishgrey-and-linkcolor/bubble-stroke-lalala.svg
+File "src/img/svg-colors\bubble-stroke-lalala.svg" created.
+File "src/img/svg-colors\bubble-stroke-lalala_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgrey-and-linkcolor/eye-stroke.svg
+File "src/img/svg-colors\eye-stroke.svg" created.
+File "src/img/svg-colors\eye-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgrey-and-linkcolor/heart-stroke-big.svg
+File "src/img/svg-colors\heart-stroke-big.svg" created.
+File "src/img/svg-colors\heart-stroke-big_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgrey-and-linkcolor/mag-glass-fill.svg
+File "src/img/svg-colors\mag-glass-fill.svg" created.
+File "src/img/svg-colors\mag-glass-fill_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgrey-and-linkcolor/poll-option-radio-button-checked.svg
+File "src/img/svg-colors\poll-option-radio-button-checked.svg" created.
+File "src/img/svg-colors\poll-option-radio-button-checked_hover.svg" created.
+Source filename src/img/svg-compressed/to-pinkishgrey-and-linkcolor/poll-option-radio-button.svg
+File "src/img/svg-colors\poll-option-radio-button.svg" created.
+File "src/img/svg-colors\poll-option-radio-button_hover.svg" created.
+File "src/img/svg-colors" created.
+
+Running "color_svg_icons:to_warmgrey_and_white" (color_svg_icons) task
+Source filename src/img/svg-compressed/to-warmgrey-and-white/cog-stroke-header.svg
+File "src/img/svg-colors\cog-stroke-header.svg" created.
+File "src/img/svg-colors\cog-stroke-header_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-white/envelope-open-stroke-header.svg
+File "src/img/svg-colors\envelope-open-stroke-header.svg" created.
+File "src/img/svg-colors\envelope-open-stroke-header_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-white/export-users-header.svg
+File "src/img/svg-colors\export-users-header.svg" created.
+File "src/img/svg-colors\export-users-header_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-white/leave-stroke-header.svg
+File "src/img/svg-colors\leave-stroke-header.svg" created.
+File "src/img/svg-colors\leave-stroke-header_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-white/unfollow-stroke-header.svg
+File "src/img/svg-colors\unfollow-stroke-header.svg" created.
+File "src/img/svg-colors\unfollow-stroke-header_hover.svg" created.
+File "src/img/svg-colors" created.
+
+Running "color_svg_icons:to_warmgrey_and_linkcolor" (color_svg_icons) task
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/agg-commented.svg
+File "src/img/svg-colors\agg-commented.svg" created.
+File "src/img/svg-colors\agg-commented_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/aggregated-links-title--recently-shared.svg
+File "src/img/svg-colors\aggregated-links-title--recently-shared.svg" created.
+File "src/img/svg-colors\aggregated-links-title--recently-shared_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/aggregated-questions-title--recently-answered.svg
+File "src/img/svg-colors\aggregated-questions-title--recently-answered.svg" created.
+File "src/img/svg-colors\aggregated-questions-title--recently-answered_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/arrow-down-stroke.svg
+File "src/img/svg-colors\arrow-down-stroke.svg" created.
+File "src/img/svg-colors\arrow-down-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/bar-graphic-stroke-circle.svg
+File "src/img/svg-colors\bar-graphic-stroke-circle.svg" created.
+File "src/img/svg-colors\bar-graphic-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/bar-graphic-stroke.svg
+File "src/img/svg-colors\bar-graphic-stroke.svg" created.
+File "src/img/svg-colors\bar-graphic-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/bubble-stroke-circle.svg
+File "src/img/svg-colors\bubble-stroke-circle.svg" created.
+File "src/img/svg-colors\bubble-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/bubble-stroke.svg
+File "src/img/svg-colors\bubble-stroke.svg" created.
+File "src/img/svg-colors\bubble-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/bulb-stroke-circle.svg
+File "src/img/svg-colors\bulb-stroke-circle.svg" created.
+File "src/img/svg-colors\bulb-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/bulb-stroke.svg
+File "src/img/svg-colors\bulb-stroke.svg" created.
+File "src/img/svg-colors\bulb-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/calendar-icon.svg
+File "src/img/svg-colors\calendar-icon.svg" created.
+File "src/img/svg-colors\calendar-icon_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/calendar-stroke-circle.svg
+File "src/img/svg-colors\calendar-stroke-circle.svg" created.
+File "src/img/svg-colors\calendar-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/check-stroke-circle.svg
+File "src/img/svg-colors\check-stroke-circle.svg" created.
+File "src/img/svg-colors\check-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/clock-stroke.svg
+File "src/img/svg-colors\clock-stroke.svg" created.
+File "src/img/svg-colors\clock-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/dots-stroke-circle.svg
+File "src/img/svg-colors\dots-stroke-circle.svg" created.
+File "src/img/svg-colors\dots-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/exclamation-mark-stroke-circle-small.svg
+File "src/img/svg-colors\exclamation-mark-stroke-circle-small.svg" created.
+File "src/img/svg-colors\exclamation-mark-stroke-circle-small_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/exclamation-mark-stroke-circle.svg
+File "src/img/svg-colors\exclamation-mark-stroke-circle.svg" created.
+File "src/img/svg-colors\exclamation-mark-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/fire-stroke.svg
+File "src/img/svg-colors\fire-stroke.svg" created.
+File "src/img/svg-colors\fire-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/flash-stroke.svg
+File "src/img/svg-colors\flash-stroke.svg" created.
+File "src/img/svg-colors\flash-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/funnel-stroke.svg
+File "src/img/svg-colors\funnel-stroke.svg" created.
+File "src/img/svg-colors\funnel-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/gear-fill.svg
+File "src/img/svg-colors\gear-fill.svg" created.
+File "src/img/svg-colors\gear-fill_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/home-stroke-circle.svg
+File "src/img/svg-colors\home-stroke-circle.svg" created.
+File "src/img/svg-colors\home-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/locker-stroke.svg
+File "src/img/svg-colors\locker-stroke.svg" created.
+File "src/img/svg-colors\locker-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/notepad-stroke-circle.svg
+File "src/img/svg-colors\notepad-stroke-circle.svg" created.
+File "src/img/svg-colors\notepad-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/notepad-stroke.svg
+File "src/img/svg-colors\notepad-stroke.svg" created.
+File "src/img/svg-colors\notepad-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/paper-airplane-stroke-circle.svg
+File "src/img/svg-colors\paper-airplane-stroke-circle.svg" created.
+File "src/img/svg-colors\paper-airplane-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/paperclip-stroke-circle.svg
+File "src/img/svg-colors\paperclip-stroke-circle.svg" created.
+File "src/img/svg-colors\paperclip-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/papers-vertical-stroke-circle.svg
+File "src/img/svg-colors\papers-vertical-stroke-circle.svg" created.
+File "src/img/svg-colors\papers-vertical-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/papers-vertical-stroke.svg
+File "src/img/svg-colors\papers-vertical-stroke.svg" created.
+File "src/img/svg-colors\papers-vertical-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/pencil-stroke-20px.svg
+File "src/img/svg-colors\pencil-stroke-20px.svg" created.
+File "src/img/svg-colors\pencil-stroke-20px_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/pencil-stroke-27px.svg
+File "src/img/svg-colors\pencil-stroke-27px.svg" created.
+File "src/img/svg-colors\pencil-stroke-27px_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/praise-stroke-circle.svg
+File "src/img/svg-colors\praise-stroke-circle.svg" created.
+File "src/img/svg-colors\praise-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/praise-stroke.svg
+File "src/img/svg-colors\praise-stroke.svg" created.
+File "src/img/svg-colors\praise-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/question-mark-stroke-circle-small.svg
+File "src/img/svg-colors\question-mark-stroke-circle-small.svg" created.
+File "src/img/svg-colors\question-mark-stroke-circle-small_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/question-mark-stroke-circle.svg
+File "src/img/svg-colors\question-mark-stroke-circle.svg" created.
+File "src/img/svg-colors\question-mark-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/rounded-arrow-stroke.svg
+File "src/img/svg-colors\rounded-arrow-stroke.svg" created.
+File "src/img/svg-colors\rounded-arrow-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-announcement.svg
+File "src/img/svg-colors\sharebox-announcement.svg" created.
+File "src/img/svg-colors\sharebox-announcement_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-blog.svg
+File "src/img/svg-colors\sharebox-blog.svg" created.
+File "src/img/svg-colors\sharebox-blog_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-event.svg
+File "src/img/svg-colors\sharebox-event.svg" created.
+File "src/img/svg-colors\sharebox-event_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-forum.svg
+File "src/img/svg-colors\sharebox-forum.svg" created.
+File "src/img/svg-colors\sharebox-forum_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-idea.svg
+File "src/img/svg-colors\sharebox-idea.svg" created.
+File "src/img/svg-colors\sharebox-idea_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-poll.svg
+File "src/img/svg-colors\sharebox-poll.svg" created.
+File "src/img/svg-colors\sharebox-poll_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-post.svg
+File "src/img/svg-colors\sharebox-post.svg" created.
+File "src/img/svg-colors\sharebox-post_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-praise.svg
+File "src/img/svg-colors\sharebox-praise.svg" created.
+File "src/img/svg-colors\sharebox-praise_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-question.svg
+File "src/img/svg-colors\sharebox-question.svg" created.
+File "src/img/svg-colors\sharebox-question_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-task.svg
+File "src/img/svg-colors\sharebox-task.svg" created.
+File "src/img/svg-colors\sharebox-task_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/sharebox-wiki.svg
+File "src/img/svg-colors\sharebox-wiki.svg" created.
+File "src/img/svg-colors\sharebox-wiki_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/speech-bubbles-stroke-circle.svg
+File "src/img/svg-colors\speech-bubbles-stroke-circle.svg" created.
+File "src/img/svg-colors\speech-bubbles-stroke-circle_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/speech-bubbles-stroke.svg
+File "src/img/svg-colors\speech-bubbles-stroke.svg" created.
+File "src/img/svg-colors\speech-bubbles-stroke_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/star-stroke-grey.svg
+File "src/img/svg-colors\star-stroke-grey.svg" created.
+File "src/img/svg-colors\star-stroke-grey_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/task-icon.svg
+File "src/img/svg-colors\task-icon.svg" created.
+File "src/img/svg-colors\task-icon_hover.svg" created.
+Source filename src/img/svg-compressed/to-warmgrey-and-linkcolor/trash-stroke-27px.svg
+File "src/img/svg-colors\trash-stroke-27px.svg" created.
+File "src/img/svg-colors\trash-stroke-27px_hover.svg" created.
+File "src/img/svg-colors" created.
+
+Running "copy:svg" (copy) task
+Copied 67 files
+
+Running "dr-svg-sprites-bz:branding" (dr-svg-sprites-bz) task
+Building SVG sprites...
+Done.
+
+Running "copy:branding_sprites_to_product" (copy) task
+Copied 2 files
+
+Running "copy:branding_sass_sprites_to_product" (copy) task
+Copied 1 file
+
+Running "clean:svg" (clean) task
+>> 2 paths cleaned.
+
+Running "clean:result" (clean) task
+>> 1 path cleaned.
+
+Done, without errors.
+
+GlobalAssemblyInfo exists: false
+
+::::::::::# BEEZY BRANDING FILES #:::::::::::::
+
+
+::::::::::# BEEZY BRANDING MASTER #:::::::::::::
+
+
+::::::::::# BEEZY BRANDING RESOURCES AND IMAGES #:::::::::::::
+
+
+::::::::::# BEEZY BRANDING LANGUAGES #:::::::::::::
+
+
+::::::::::# BEEZY BRANDING EXTRA RESOURCES #:::::::::::::
+
+Hash: 1764f9b7abfc43c3061f
+Version: webpack 1.15.0
+Time: 67520ms
+                Asset       Size  Chunks             Chunk Names
+./js/page.branding.js     154 kB       0  [emitted]  branding
+  ./page.branding.css  195 bytes       0  [emitted]  branding
+   [0] multi branding 40 bytes {0} [built]
+    + 27 hidden modules
+Child extract-text-webpack-plugin:
+        + 2 hidden modules
+
+[STARTING IO QUEUE BATCH PROCESSING] Copying files...
+
+[IO QUEUE BATCH PROCESSING FINISHED] Pending commits: 4
+
+[STARTING IO QUEUE BATCH PROCESSING] Copying files...
+
+[IO QUEUE BATCH PROCESSING FINISHED] Pending commits: 2
+
+[STARTING IO QUEUE BATCH PROCESSING] Copying files...
+
+[IO QUEUE BATCH PROCESSING FINISHED] Pending commits: 1
+
+[STARTING IO QUEUE BATCH PROCESSING] Copying files...
+
+[IO QUEUE BATCH PROCESSING FINISHED] Pending commits: 0
+
+[COPY FINISHED - QUEUE EMPTY]
+
+C:\Users\VHD9090\Desktop\DiscoveryCards.Beezy.Branding>

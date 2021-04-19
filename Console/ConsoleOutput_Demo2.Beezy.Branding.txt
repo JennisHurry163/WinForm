@@ -1,0 +1,163 @@
+Microsoft Windows [Version 10.0.18363.1440]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Users\VHD9090\Desktop\Demo2.Beezy.Branding
+
+C:\Users\VHD9090\Desktop\Demo2.Beezy.Branding>yarn
+yarn install v1.22.10
+warning package.json: No license field
+info No lockfile found.
+warning webpack-dependencies-beezy-sprites-install@1.0.0: No license field
+[1/4] Resolving packages...
+warning react > fbjs > core-js@1.2.7: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning @beezyinc/grunt-dr-svg-sprites-bz > @beezyinc/dr-svg-sprites-bz > svg2png > phantomjs-prebuilt@2.1.16: this package is now deprecated
+warning @beezyinc/grunt-dr-svg-sprites-bz > @beezyinc/dr-svg-sprites-bz > svg2png > phantomjs-prebuilt > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+warning @beezyinc/grunt-dr-svg-sprites-bz > @beezyinc/dr-svg-sprites-bz > svg2png > phantomjs-prebuilt > request > har-validator@5.1.5: this library is no longer supported
+warning babel-core > babel-runtime > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning babel-core > babel-register > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning babel-eslint@8.2.6: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+warning babel-preset-es2015@6.24.1: �  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+warning babel-preset-react-app > babel-preset-env > browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning babel-runtime > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+warning chokidar > fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+warning chokidar > readdirp > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+warning chokidar > readdirp > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+warning css-loader > cssnano > autoprefixer > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning css-loader > cssnano > postcss-merge-rules > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning css-loader > cssnano > postcss-merge-rules > caniuse-api > browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+warning extract-text-webpack-plugin@1.0.1: Deprecated. Please use https://github.com/webpack-contrib/mini-css-extract-plugin
+warning node-sass > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+warning node-sass > node-gyp > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+warning webpack > watchpack > chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+[2/4] Fetching packages...
+info fsevents@1.2.13: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > babel-preset-react-app@3.1.2" has incorrect peer dependency "babel-runtime@^6.23.0".
+warning " > eslint-config-airbnb@10.0.1" has incorrect peer dependency "eslint@^3.3.0".
+warning " > eslint-config-airbnb@10.0.1" has incorrect peer dependency "eslint-plugin-import@^1.13.0".
+warning "eslint-config-airbnb > eslint-config-airbnb-base@5.0.3" has incorrect peer dependency "eslint@^3.3.1".
+warning "eslint-config-airbnb > eslint-config-airbnb-base@5.0.3" has incorrect peer dependency "eslint-plugin-import@^1.13.0".
+warning " > eslint-plugin-jsx-a11y@2.2.3" has incorrect peer dependency "eslint@^2.10.2 || 3.x".
+warning " > eslint-plugin-react@6.10.3" has incorrect peer dependency "eslint@^2.0.0 || ^3.0.0".
+warning " > grunt-color-svg-icons-hiulit@0.1.3" has incorrect peer dependency "grunt@~0.4.5".
+warning " > grunt-contrib-clean@0.6.0" has incorrect peer dependency "grunt@~0.4.0".
+warning " > grunt-contrib-copy@0.7.0" has incorrect peer dependency "grunt@~0.4.0".
+warning " > sass-loader@3.2.3" has incorrect peer dependency "node-sass@^3.4.2".
+[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 200.24s.
+
+C:\Users\VHD9090\Desktop\Demo2.Beezy.Branding>build.bat
+Deleting .orig files...
+
+Installing npm references...
+call "C:\Program Files\nodejs\npm.cmd" install --color false
+
+Starting FE Build...
+{
+  "process.env": {
+    "NODE_ENV": "'development'",
+    "BABEL_ENV": "'development'"
+  }
+}
+
+
+To get the usage:
+
+--usage
+ Optional: true
+ Shows para-meter ;) usage
+
+
+Configuration:
+Environment ==> debug
+Model ==> Wsp ( onprem )
+Extension:  ==> none
+Branding ==> true (DEMO2)
+Customizations ==> false
+Verbose ==> false
+Output path ==> D:/Style Library4/Beezy
+Keep Branding:  ==> false
+
+
+
+[STARTING IO QUEUE]
+..//DEMO2.Beezy.Branding/DEMO2.Beezy.Branding/_artifacts/
+[CONFIGURATION OVERRIDED FROM BRANDING]
+[SETTING NEW SOURCE FROM BRANDING]
+C:\Users\VHD9090\Desktop\Demo2.Beezy.Branding\Demo2.Beezy.Branding\_artifacts
+[SETTING NEW PROVISIONING FROM BRANDING]
+C:\Users\VHD9090\Desktop\Demo2.Beezy.Branding\Demo2.Beezy.Branding.Provisioning\_artifacts\Provisioning\Branding
+
+
+Configuration:
+Environment ==> debug
+Model ==> Apps ( onprem )
+Extension:  ==> none
+Branding ==> true (DEMO2)
+Customizations ==> false
+Verbose ==> false
+Output path ==> D:/Style Library4/Beezy
+Keep Branding:  ==> false
+
+
+Sprites configuration found. Executing sprite generation script...
+npm WARN beezy-sprites@0.1.0 No repository field.
+npm WARN beezy-sprites@0.1.0 No license field.
+
+[ERROR]
+Error: Command failed: C:\Users\VHD9090\Desktop\Demo2.Beezy.Branding\webpack\batches\batch.executeSprites.bat DEMO2 C:\Users\VHD9090\Desktop\Demo2.Beezy.Branding\sprites
+npm WARN beezy-sprites@0.1.0 No repository field.
+npm WARN beezy-sprites@0.1.0 No license field.
+
+
+Skipping execution.
+GlobalAssemblyInfo exists: false
+
+::::::::::# BEEZY BRANDING FILES #:::::::::::::
+
+
+::::::::::# BEEZY BRANDING MASTER #:::::::::::::
+
+
+::::::::::# BEEZY BRANDING RESOURCES AND IMAGES #:::::::::::::
+
+
+::::::::::# BEEZY BRANDING LANGUAGES #:::::::::::::
+
+
+::::::::::# BEEZY BRANDING EXTRA RESOURCES #:::::::::::::
+
+Hash: 60e9800713174f2c18ed
+Version: webpack 1.15.0
+Time: 41282ms
+                                            Asset       Size  Chunks             Chunk Names
+webfonts/2b5cafe0-7a75-4a94-8c93-83a1045ab561.eot    41.6 kB          [emitted]
+                            ./js/page.branding.js     147 kB       0  [emitted]  branding
+                              ./page.branding.css  848 bytes       0  [emitted]  branding
+   [0] multi branding 40 bytes {0} [built]
+    + 29 hidden modules
+Child extract-text-webpack-plugin:
+        + 3 hidden modules
+
+[STARTING IO QUEUE BATCH PROCESSING] Copying files...
+
+[IO QUEUE BATCH PROCESSING FINISHED] Pending commits: 5
+
+[STARTING IO QUEUE BATCH PROCESSING] Copying files...
+
+[IO QUEUE BATCH PROCESSING FINISHED] Pending commits: 2
+
+[STARTING IO QUEUE BATCH PROCESSING] Copying files...
+
+[IO QUEUE BATCH PROCESSING FINISHED] Pending commits: 1
+
+[STARTING IO QUEUE BATCH PROCESSING] Copying files...
+
+[IO QUEUE BATCH PROCESSING FINISHED] Pending commits: 0
+
+[COPY FINISHED - QUEUE EMPTY]
+
+C:\Users\VHD9090\Desktop\Demo2.Beezy.Branding>
