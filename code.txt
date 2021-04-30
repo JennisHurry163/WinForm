@@ -1,0 +1,34 @@
+public class AddAuthorizationHeaderParameterOperationFilter : IOperationFilter
+{
+    public void Apply(Operation operation, SchemaRegistry schemaRegistry, ApiDescription apiDescription)
+    {
+        if (operation.parameters != null)
+        {
+            operation.parameters.Add(new Parameter
+            {
+                name = "Authorization",
+                @in = "header",
+                description = "access token",
+                required = false,
+                type = "string"
+            });
+        }
+    }
+}
+
+
+
+configuration
+    .EnableSwagger(c =>
+    {
+        c.SingleApiVersion("v1", "Commerce Services - Discounts");
+
+        foreach (var commentFile in xmlCommentFiles)
+        {
+            c.IncludeXmlComments(commentFile);
+        }
+
+        c.OperationFilter<ExamplesOperationFilter>();
+        c.OperationFilter<AddAuthorizationHeaderParameterOperationFilter>();
+    })
+    .EnableSwaggerUi(config => config.DocExpansion(DocExpansion.List));
